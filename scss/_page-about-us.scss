@@ -1,0 +1,135 @@
+// ================================
+//  VALUES TABLE
+// ================================
+
+
+section.page-about__values ul {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background: #ededee;
+    padding: 40px 65px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+section.page-about__values li {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    width: 100%;
+    position: relative;
+}
+
+section.page-about__values li::before {
+    content: '.';
+    font-size: 66px;
+    margin-left: -15px;
+    position: relative;
+    left: -10px;
+    top: -2px;
+}
+
+section.page-about__values li::after {
+    content: '';
+    display: block;
+    width: 97%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, .5);
+    margin-top: 17px;
+
+}
+
+@media (min-width: 992px) {
+    section.page-about__values li {
+        width: 50%;
+    }
+}
+
+// ================================
+//  SECTION MISSION
+// ================================
+
+section.page-about__mission {
+    padding: 30px 15px;
+}
+
+section.page-about__mission h2 {
+    margin-bottom: 30px;
+}
+
+// ================================
+//  HOW WE WORK
+// ================================
+
+.page-about-how-we-work__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.page-about-how-we-work__content-left,
+.page-about-how-we-work__content-right {
+    width: 100%;
+    padding: 30px 15px;
+}
+
+@media (min-width: 768px) {
+
+    .page-about-how-we-work__content-left,
+    .page-about-how-we-work__content-right {
+        width: 50%;
+    }
+}
+
+.page-about-how-we-work__content-left img,
+.page-about-how-we-work__content-right img {
+    width: 100%;
+    height: auto;
+}
+
+
+#about3 h2,
+#about2 h2 {
+    padding-left: 30px;
+    margin-bottom: 30px;
+    background: url(../wp-content/themes/elephate/static/graphics/ico/diamonds.png) no-repeat 80% 55%;
+    background-size: 50px auto;
+    background-position: left;
+}
+
+// ================================
+//  ABOUT HEADING
+// ================================
+
+#about .about-section.about2 .h2,
+#about .about-section.about2 h2 {
+    background-size: 50px auto;
+    background-position: left;
+}
+
+#about .about-section.about3 .h2,
+#about .about-section.about3 h2 {
+    padding-left: 119px;
+    background-position: left;
+}
+
+// ================================
+//  ABOUT MAIN PHOTO
+// ================================
+
+#about .full-width {
+    max-height: 600px;
+}

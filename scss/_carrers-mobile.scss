@@ -1,0 +1,24 @@
+#careers-head h3.h1 {
+  font-size: 46px;
+
+  @include sm-min {
+    font-size: 60px;
+  }
+
+  @include md-min {
+    font-size: 85px;
+  }
+}
+
+section#about {
+  padding: 0px 30px !important;
+
+  h2 {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  figure {
+    position: initial;
+  }
+}

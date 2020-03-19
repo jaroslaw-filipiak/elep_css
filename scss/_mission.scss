@@ -1,0 +1,29 @@
+section.page-about__mission {
+    padding: 30px 15px;
+
+    h2 {
+        margin-bottom: 30px;
+    }
+}
+
+
+section.page-about__values {
+    ul {
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        background: #ededee;
+        padding: 40px 30px;
+        margin-bottom: 30px;
+    }
+
+    li {
+        box-sizing: border-box;
+        padding: 10px 20px;
+        width: 100%;
+
+        @include lg-min {
+            width: 50%;
+        }
+    }
+}

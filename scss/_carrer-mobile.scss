@@ -1,0 +1,30 @@
+#careers-head h3.h1 {
+    font-size: 46px;
+}
+
+@media (min-width: 576px) {
+    #careers-head h3.h1 {
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 768px) {
+    #careers-head h3.h1 {
+        font-size: 85px;
+    }
+}
+
+section#about {
+    padding: 0px 30px !important;
+}
+
+section#about h2 {
+    text-align: center;
+    padding-left: 0;
+}
+
+section#about figure {
+    position: initial;
+}
+
+/*# sourceMappingURL=second.css.map */

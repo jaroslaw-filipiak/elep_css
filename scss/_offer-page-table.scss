@@ -1,0 +1,36 @@
+#offer-page-table {
+    margin-top: 25px;
+    width: 100%;
+    background: #f4f6f8;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 20px 25px;
+}
+
+#offer-page-table div {
+    width: 100%;
+}
+
+@media (min-width: 1200px) {
+    #offer-page-table div {
+        width: auto;
+    }
+}
+
+#offer-page-table ul {
+    padding: 20px 25px;
+}
+
+#offer-page-table ul li {
+    font-weight: 400;
+    padding: 10px 0;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+#offer-page-table ul li:last-of-type {
+    border-bottom: none;
+}

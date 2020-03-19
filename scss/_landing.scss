@@ -1,0 +1,24 @@
+// ================================
+//  CLIENT LOGOS
+// ================================
+
+#our-clients .clients-logos div img.logo-vox {
+    max-width: 55px !important;
+}
+
+#our-clients .clients-logos div {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#our-content .covered-by div img {
+    max-width: 100%;
+}
+
+@media (min-width: 1200px) {
+    #our-content .covered-by div {
+        margin-bottom: 20px;
+    }
+}

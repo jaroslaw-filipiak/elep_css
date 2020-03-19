@@ -1,0 +1,25 @@
+// ================================
+// ABOUT PAGE HOW WE WORK SECTION
+// ================================
+
+.page-about-how-we-work__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.page-about-how-we-work__content-left,
+.page-about-how-we-work__content-right {
+    width: 100%;
+    padding: 30px 15px;
+
+    @include md-min {
+        width: 50%;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
