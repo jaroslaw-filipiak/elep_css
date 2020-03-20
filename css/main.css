@@ -9579,4 +9579,22 @@ section#about figure {
 #offer-page-table ul li:last-of-type {
   border-bottom: none;
 }
+
+@supports (-webkit-touch-callout: none) {
+  header {
+    overflow: visible !important;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+  header {
+    overflow: visible !important;
+  }
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  header {
+    overflow: visible !important;
+  }
+}
 /*# sourceMappingURL=main.css.map */

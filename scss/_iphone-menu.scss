@@ -1,0 +1,17 @@
+@include iPhone {
+    header {
+        overflow: visible !important;
+    }
+}
+
+@include xs {
+    header {
+        overflow: visible !important;
+    }
+}
+
+@include safari {
+    header {
+        overflow: visible !important;
+    }
+}
