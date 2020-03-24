@@ -14,11 +14,29 @@
 }
 
 #our-content .covered-by div img {
-    max-width: 100%;
+    width: 100%;
+    height: auto;
 }
 
 @media (min-width: 1200px) {
     #our-content .covered-by div {
         margin-bottom: 20px;
     }
+}
+
+.logo-wp {
+    transform: scale(2);
+
+    @include safari {
+        transform: scale(1)
+    }
+}
+
+.logo-gazeta {
+    transform: scale(1.3);
+
+    @include safari {
+        transform: scale(1)
+    }
+
 }

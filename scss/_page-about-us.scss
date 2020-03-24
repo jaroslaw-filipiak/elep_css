@@ -133,3 +133,12 @@ section.page-about__mission h2 {
 #about .full-width {
     max-height: 600px;
 }
+
+
+@media (max-width: 550px) {
+    #team ul li {
+        width: 100%;
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+}

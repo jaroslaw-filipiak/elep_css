@@ -7905,7 +7905,8 @@ header {
 }
 
 .light-heading {
-  font-family: Proxima Nova Bold;
+  font-family: Proxima Nova Bl !important;
+  font-weight: 900;
   font-size: 64px;
   line-height: 48px;
   color: #eaeaea;
@@ -8349,6 +8350,11 @@ header {
   }
 }
 
+#our-content .covered-by img {
+  width: 100%;
+  height: auto;
+}
+
 @media (min-width: 768px) {
   #our-content .covered-by img {
     padding: 25px;
@@ -8656,7 +8662,7 @@ header {
 }
 
 #our-blog .our-blog-items .our-blog-item img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -9418,6 +9424,15 @@ section#about figure {
   width: 100%;
 }
 
+@media (max-width: 450px) {
+  #careers-head > figure .h1,
+  #careers-head > figure h3 {
+    padding: 120px 0 140px;
+    font-size: 50px !important;
+    line-height: 1em;
+  }
+}
+
 section.page-about__values ul {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -9530,6 +9545,14 @@ section.page-about__mission h2 {
   max-height: 600px;
 }
 
+@media (max-width: 550px) {
+  #team ul li {
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+}
+
 #services-content h1 {
   font-size: 2.5em;
   line-height: 1.25em;
@@ -9583,12 +9606,37 @@ section.page-about__mission h2 {
 }
 
 #our-content .covered-by div img {
-  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 
 @media (min-width: 1200px) {
   #our-content .covered-by div {
     margin-bottom: 20px;
+  }
+}
+
+.logo-wp {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .logo-wp {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.logo-gazeta {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  .logo-gazeta {
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 
